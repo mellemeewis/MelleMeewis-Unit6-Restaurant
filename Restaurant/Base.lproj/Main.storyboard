@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="1657" y="-45"/>
         </scene>
-        <!--Title-->
+        <!--Menu Item Detail View Controller-->
         <scene sceneID="IUR-I0-0dV">
             <objects>
-                <viewController id="5GW-Kc-vfp" customClass="MenuItemDetailViewController" customModule="Restaurant" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5GW-Kc-vfp" userLabel="Menu Item Detail View Controller" customClass="MenuItemDetailViewController" customModule="Restaurant" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iwn-9t-mOP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,7 +169,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AcS-Yn-w7d"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="never" id="zxd-lR-Mlo"/>
+                    <navigationItem key="navigationItem" title="Detail" largeTitleDisplayMode="never" id="zxd-lR-Mlo"/>
                     <connections>
                         <outlet property="addToOrderButton" destination="g75-rK-H9E" id="WpG-TV-rqh"/>
                         <outlet property="imageView" destination="VGJ-0H-aPE" id="jk0-VB-JmV"/>
@@ -225,7 +225,7 @@
                             <outlet property="delegate" destination="bHi-L3-J8X" id="9hb-6m-yA8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="iIW-Py-u9V">
+                    <navigationItem key="navigationItem" title="Your Order" id="iIW-Py-u9V">
                         <barButtonItem key="rightBarButtonItem" title="Submit" id="p81-Oe-MSi">
                             <connections>
                                 <action selector="submitButtonTapped:" destination="bHi-L3-J8X" id="ERk-dt-iHb"/>
