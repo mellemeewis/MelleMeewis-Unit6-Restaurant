@@ -5,4 +5,4 @@ With this app you can order meals online from the restaurant "Pizza & Co"
 
 
 ## The Menu
-![alt text](https://github.com/mellemeewis/MelleMeewis-Unit5-ToDoList/blob/master/doc/Schermafbeelding%202018-11-28%20om%2016.58.47.png)
+![alt text](https://github.com/mellemeewis/MelleMeewis-Unit6-Restaurant/blob/master/doc/Schermafbeelding%202018-12-10%20om%2016.22.39.png)
